@@ -1,0 +1,28 @@
+.cards{
+    border: 2px solid;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    background-color: brown;
+    color: white;
+    border-radius: 20px;
+}
+
+#uniq{
+    background-color: yellow;
+
+}
+
+.parent{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+
+    
+}
+
+body{
+    background-color: lightcoral;
+}
