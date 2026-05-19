@@ -8,9 +8,19 @@
     border-radius: 20px;
 }
 
+.cards:hover{
+    background-color: black;
+    color: white;
+}
+
 #uniq{
     background-color: yellow;
 
+}
+
+#uniq:hover{
+    background-color: chocolate;
+    color: white;
 }
 
 .parent{
