@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-color: rgb(31, 1, 1);
+    color: white;
+    padding: 10px 0px;
+}
+#f:first-letter{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#nav{
+    background-color: rgb(112, 22, 22);
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+
+#Order{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+#products{
+    color: rgb(112, 22, 22);
+    text-align: center;
+}
+#Products{
+    color: rgb(112, 22, 22);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.flex{
+    border: 2px solid;
+    align-items: center;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#order{
+    background-color: rgb(112, 22, 22);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#why{
+    background-color: rgb(112, 22, 22);
+    color: white;
+    padding: 30px;
+    width: 800px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius:100px ;
+}
+
+#table{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+th{
+    padding: 3px;
+}
+td{
+    padding: 10px;
+}
+
+#text{
+  background-color: rgb(112, 22, 22);
+  padding: 50px;
+  color: white;
+  text-align: center;
+}
+
+#form{
+    text-align: center;
+}
+
+#submit{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+#footer{
+  background-color: rgb(112, 22, 22);
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
