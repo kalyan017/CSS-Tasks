@@ -1,0 +1,69 @@
+h1{
+    text-align: center;
+}
+
+#parent{
+    border: 2px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: center;
+}
+
+.color{
+    border: 2px solid;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.round{
+    border: 2px solid;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+}
+
+#colorname{
+    background-color: red;
+}
+
+#hexa{
+    background-color: #430449;
+}
+
+#rgb{
+    background-color:rgb(100,100,100)
+}
+
+#rgba{
+    background-color: rgba(200, 200,200,0.9);
+}
+
+#hsl{
+    background-color: hsl(0,50%,40%);
+}
+
+#hsla{
+    background-color: hsla(91, 100%, 50%, 0.329);
+}
+
+#lg{
+    background:linear-gradient(yellow,green);
+}
+
+#rlg{
+    background: repeating-linear-gradient(black, white 10px 10px);
+}
+
+#rg{
+    background: radial-gradient(blue,red,white);
+}
+
+#rrg{
+    background: repeating-radial-gradient(black,white,red 10px);
+}
