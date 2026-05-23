@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(3, 107, 3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#header1 {
+    letter-spacing: 3px;
+    font-size: 17px;
+    color: white;
+
+}
+
+#header1::first-letter {
+    font-size: 25px;
+}
+
+#anchor {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#div1 {
+    background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/AwvLRJ6PZ3C9eL7n/609b9e55c51475728f6b8d288fd0d400-dWxMDMzX9QtMRM3Z.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+#header2 {
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+    text-shadow: 0px 5px 10px black;
+
+
+}
+
+#order {
+    padding: 10px 20px;
+    background-color: beige;
+    color: green;
+    border: none;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+#div2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px;
+}
+
+#div22 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#header3 {
+    font-size: 40px;
+    color: green;
+}
+
+#p1 {
+    width: 100%;
+    font-size: 20px;
+}
+
+#div3 {
+    /* border:2px solid; */
+    height: auto;
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 226, 0);
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    justify-content: center;
+    padding: 50px;
+}
+
+#div31 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-shadow: 0px 5px 10px black;
+    padding: 20px;
+}
+
+#div32 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.div321 {
+    /* border: 2px solid; */
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 30px;
+    color: green;
+}
+
+p {
+    color: green;
+    font-size: 20px;
+    padding: 20px;
+}
+
+button {
+    border: 2px solid green;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    color: green;
+}
+
+#header4 {
+    font-size: 40px;
+    color: green;
+    text-align: center;
+}
+
+#div4 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.div41 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    /* border: 2px solid; */
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(0, 204, 0);
+    width: 450px;
+    height: 300px;
+}
+
+#div412,
+#div421,
+#div431 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#name1,
+#name2,
+#name3,
+#p2,
+#p3,
+#p4 {
+    color: white;
+}
+
+#div5 {
+    height: 1000px;
+    width: 70%;
+    background-color: rgb(63, 241, 63);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+#header5 {
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+}
+
+#div51 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#div52 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#div53 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#div54 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#header6,
+#header7,
+#header8 {
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+}
+
+#p5,
+#p6,
+#p7 {
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+
+
+
+
+
+
+
+#div6 {
+    border: 2px solid;
+    width: 100%;
+    height: 600px;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+#footer {
+    background-color: rgb(7, 210, 7);
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+}
